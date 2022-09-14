@@ -1,20 +1,50 @@
-<style>
-        body {
-            background-color: #c7e1e5;
+body {
+    background-color: #c7e1e5;
+    }
+
+hr {
+    background-color: black;
+    border-style: solid;
+    height: 2px;
+    width: 50%;
+    }
+
+h4 {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+
+.menu:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* h1 {
+    color: #4a7d8a;
+    }
+*/
+
+h2 {
+    
+}
+
+h3 {
+    color: #4a7d8a;
         }
 
-        hr {
-            background-color: black;
-            border-style: solid;
-            height: 2px;
-            width: 100%;
+#MyName {
+    color:#4a7d8a;
+    font-size: 50px;
+    width: 8em;
+    height: 3ex;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
-        }
-
-        h1 {
-            color: #4a7d8a;
-        }
-        h3 {
-            color: #4a7d8a;
-        }
-</style>
+#MyName:hover {
+    background-color: rgb(196, 255, 247);
+    text-decoration: underline
+}
